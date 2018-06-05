@@ -1,0 +1,16 @@
+{
+    "name": "philetaylor/exportupdates",
+    "description": "Remote API for exporting an encrypted base64 string of Joomla Upgrades and Updates",
+    "type": "library",
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "Phil Taylor",
+            "email": "phil@phil-taylor.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "paragonie/easyrsa": "^0.5.0"
+    }
+}

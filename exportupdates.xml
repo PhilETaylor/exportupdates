@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <extension version="3.1" type="plugin" group="system">
-    <name>Expose Remote API for Encrypted base64 string of Updates</name>
+    <name>Expose Updates and Upgrades as an Encrypted base64 string</name>
     <author>myJoomla.com</author>
     <creationDate>2018</creationDate>
     <copyright>Copyright (C) 2018 Blue Flame Digital Solutions Limited. All rights reserved.</copyright>
@@ -8,7 +8,7 @@
     <authorEmail>phil@phil-taylor.com</authorEmail>
     <authorUrl>myJoomla.com</authorUrl>
     <version>0.0.1</version>
-    <description>Plugin to expose available updates and upgrade endpoints to myJoomlalite.com</description>
+    <description>Expose Updates and Upgrades as an Encrypted base64 string</description>
     <files>
         <filename plugin="exportupdates">exportupdates.php</filename>
         <filename>index.html</filename>
@@ -16,15 +16,6 @@
         <folder>vendor</folder>
     </files>
     <config>
-        <fields name="params">
-            <fieldset name="basic">
-                <field name="exportupdates_key" type="text"
-                       default="__KEY_FILE_NAME__"
-                       description="KEY"
-                       label="KEY"
-                       size="5"
-                />
-            </fieldset>
-        </fields>
+        <fields/>
     </config>
 </extension>

@@ -149,23 +149,4 @@ class plgSystemExportupdates extends JPlugin
 
         return $data;
     }
-
-    private function keyExample()
-    {
-//        $keyPair = KeyPair::generateKeyPair(4096);
-//
-//        $secretKey = $keyPair->getPrivateKey();
-//        $publicKey = $keyPair->getPublicKey();
-//
-//        file_put_contents(dirname(__FILE__).'/keys/my_secret.key', $secretKey->getKey());
-//        file_put_contents(dirname(__FILE__).'/keys/my_public.key', $publicKey->getKey());
-//
-//        $keyPair = KeyPair::generateKeyPair(4096);
-//
-//        $secretKey = $keyPair->getPrivateKey();
-//        $publicKey = $keyPair->getPublicKey();
-//
-//        file_put_contents(dirname(__FILE__).'/keys/myjoomla_secret.key', $secretKey->getKey());
-//        file_put_contents(dirname(__FILE__).'/keys/myjoomla_public.key', $publicKey->getKey());
-    }
 }

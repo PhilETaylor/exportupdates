@@ -21,6 +21,7 @@ foreach ($files as $file) {
     if (
         preg_match('/\.idea|\.git/', $file) ||
         preg_match('/README\.md/', $file) ||
+        preg_match('/\.gitignore/', $file) ||
         preg_match('/exportupdatesRelease/', $file) ||
         preg_match('/composer\.json/', $file) ||
         preg_match('/composer\.phar/', $file) ||

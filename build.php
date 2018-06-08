@@ -10,7 +10,7 @@
  */
 $zip = new ZipArchive();
 
-$filename = '../release/joomla.zip';
+$filename = '../../web/plugin/download/joomla.zip';
 
 if (true !== $zip->open($filename, ZipArchive::CREATE | ZipArchive::OVERWRITE)) {
     exit("cannot open <$filename>\n");
